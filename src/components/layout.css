@@ -1,0 +1,18 @@
+h1 {
+  animation: color-change 1s infinite;
+}
+
+gain0 {color : #003300;}
+gain1 {color : #339933;}
+gain2 {color : #0099cc;}
+gain3 {color : #6600ff;}
+gain4 {color : #ff33cc;}
+gain5 {color : #ff5050;}
+gain6 {color : #990000;}
+gain7 {color : black;}
+
+@keyframes color-change {
+     0% { color: red; }
+     50% { color: blue; }
+     100% { color: green; }
+ }
